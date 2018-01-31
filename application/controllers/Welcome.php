@@ -24,6 +24,7 @@ class Welcome extends Application
 		$this->data['authors'] = $source;
 
 		$this->render();
-	}
+                
+       	}
 
 }

@@ -58,5 +58,6 @@ $route['foxtrot'] = 'tango';
 $route['bananas/rule'] = function($fruit,$verb) {
     return 'golf';
 };
+$route['show/(:any)'] = 'welcome/show/$1';
 $route['juliet'] = 'juliet';
 
