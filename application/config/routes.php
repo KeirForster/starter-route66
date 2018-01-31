@@ -55,7 +55,7 @@ $route['translate_uri_dashes'] = FALSE;
 $route['able'] = 'able';
 $route['i/.*'] = 'golf';
 $route['foxtrot'] = 'tango';
-$route['bananas/rule'] = function($fruit,$verb) {
+$route['bananas/rule'] = function() {
     return 'golf';
 };
 $route['show/(:any)'] = 'welcome/show/$1';
